@@ -1,0 +1,21 @@
+registros,implementacao,media_s,dp_s,classes,classes_unicas
+10000,"pandas (groupby, hash)",0.0023,0.0003,9928,9858
+10000,numpy (ordenação de chave inteira),0.0018,0.0002,9928,9858
+10000,Python puro (dicionário/Counter),0.0016,0.0001,9928,9858
+10000,Python puro (sorted + groupby),0.0084,0.0045,9928,9858
+10000,SQLite (GROUP BY),0.0144,0.0002,9928,9858
+50000,"pandas (groupby, hash)",0.0097,0.0006,48235,46691
+50000,numpy (ordenação de chave inteira),0.0077,0.0002,48235,46691
+50000,Python puro (dicionário/Counter),0.0099,0.0002,48235,46691
+50000,Python puro (sorted + groupby),0.0455,0.0019,48235,46691
+50000,SQLite (GROUP BY),0.0754,0.0012,48235,46691
+100000,"pandas (groupby, hash)",0.0171,0.001,93772,88815
+100000,numpy (ordenação de chave inteira),0.014,0.0002,93772,88815
+100000,Python puro (dicionário/Counter),0.0206,0.0006,93772,88815
+100000,Python puro (sorted + groupby),0.0975,0.0011,93772,88815
+100000,SQLite (GROUP BY),0.1548,0.0019,93772,88815
+267986,"pandas (groupby, hash)",0.042,0.0007,233954,210825
+267986,numpy (ordenação de chave inteira),0.0335,0.0027,233954,210825
+267986,Python puro (dicionário/Counter),0.0531,0.002,233954,210825
+267986,Python puro (sorted + groupby),0.2905,0.0064,233954,210825
+267986,SQLite (GROUP BY),0.4182,0.0076,233954,210825

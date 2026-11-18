@@ -1,0 +1,19 @@
+# Dados brutos (302 MB; baixar do OpenDataSUS, ver README)
+INFLUD*.csv
+*.csv
+!resultados/*.csv
+
+# Documentos auxiliares
+*.pdf
+*.docx
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
